@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class InitCtl {
     @GetMapping("/")
     public ModelAndView  hello(){
-        return new ModelAndView(" index.html");
+        return new ModelAndView(" html/index.html");
 
     }
 }
